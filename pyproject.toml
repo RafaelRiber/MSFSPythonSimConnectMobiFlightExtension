@@ -1,0 +1,16 @@
+# MSFSPythonSimConnectMobiFlightExtension/pyproject.toml
+
+[project]
+name = "simconnect-mobiflight"
+version = "0.3.0"
+description = "Unofficial SimConnect extension for MobiFlight InputEvents support"
+authors = [{ name = "Koseng" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "simconnect"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
