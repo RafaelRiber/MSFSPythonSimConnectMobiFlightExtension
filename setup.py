@@ -4,10 +4,8 @@ setup(
     name="simconnect_mobiflight",
     version="0.3.0",
     packages=find_packages(include=["simconnect_mobiflight*"]),
-    install_requires=["SimConnect>=0.1.0"],
+    install_requires=["SimConnect"],
     author="Koseng",
-    description="SimConnect Python extension for MobiFlight InputEvents",
+    description="Unofficial SimConnect extension for MobiFlight InputEvents support",
     url="https://github.com/Koseng/MSFSPythonSimConnectMobiFlightExtension",
-    classifiers=["Programming Language :: Python :: 3"],
-    python_requires=">=3.10",
 )
